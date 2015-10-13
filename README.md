@@ -4,8 +4,6 @@ Generic authentication system created to support decentralized applications.
 
 
 
-
-
 ## Errors
 
 1. Routes not defined: routes needs to be defined in file [PROJECT_ROOT]/conf/routes.js
