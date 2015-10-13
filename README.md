@@ -1,4 +1,4 @@
-# ga-sso
+# gl-sso
 
 Generic authentication system created to support decentralized applications.
 
