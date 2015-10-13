@@ -1,12 +1,12 @@
 module.exports = {
-    'port': 8080,
-    'protocol': 'https',
-    'hostname': 'auth.geraldolabs.com.br',
+    'port': 80,
+    'protocol': '',
+    'hostname': '',
 
     'database': {
         'driver': 'mysql',
-        'port': 8889,
-        'database': 'gasso',
+        'port': 3306,
+        'database': 'glsso',
         'host': 'localhost',
         'user': '',
         'password': '',

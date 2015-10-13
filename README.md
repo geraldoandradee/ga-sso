@@ -2,7 +2,9 @@
 
 Generic authentication system created to support decentralized applications.
 
+## WARNING
 
+This applications it's not even close to alpha so do not use it.
 
 ## Errors
 
@@ -10,3 +12,4 @@ Generic authentication system created to support decentralized applications.
 2. Invalid ROUTE: threre's one route invalid. It must be in format: {'path': '/', 'controller': '[controller filename].[method]', 'method': 'GET'}
 3. Invalid mapping controller or controller not exists: Controller does not exists or invalid declaration format in
 routes. It must be "[filename].[function]" then both file and function must exists.
+

@@ -6,9 +6,9 @@ module.exports = {
     'database': {
         'driver': 'mysql',
         'port': 8889,
-        'database': 'gasso',
+        'database': 'glsso',
         'host': 'localhost',
-        'user': '',
+        'user': 'root',
         'password': '',
         'pool': true
     }
