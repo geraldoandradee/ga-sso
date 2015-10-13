@@ -1,12 +1,16 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var schema = require("../conf/database");
 
-var user = new Schema({
-    name: String,
-    email: String,
-    password: String,
-
-    created_at: {type: Date},
-    updated_at: {type: Date},
-    hidden: Boolean
+schema.define('User', {
+    name: {type: schema.String, "null": false},
+    email: {type: schema.String, "null": false},
+    updated: {type: schema.Date, default: null},
+    created: {type: schema.Date, default: Date.now},
+    active: {type: schema.Boolean, default: 1}
+}, {
+    primaryKeys: ["email"],
+    indexes: {
+        idx_1: {
+            columns: 'email, active'
+        }
+    }
 });
